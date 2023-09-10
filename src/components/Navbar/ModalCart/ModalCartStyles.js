@@ -16,6 +16,36 @@ export const ContainerStyled = styled(motion.div)`
   background-color: #2d5595;
   border-radius: 0 0 0 1rem;
   box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.3);
+
+  @media (max-width: 1000px) {
+    width: 40%;
+    height: calc(135vh - 4rem);
+  }
+
+  @media (max-width: 900px) {
+    width: 40%;
+    height: calc(150vh - 4rem);
+  }
+  @media (max-width: 800px) {
+    width: 50%;
+    height: calc(180vh - 4rem);
+  }
+  @media (max-width: 700px) {
+    width: 60%;
+    height: calc(200vh - 4rem);
+  }
+  @media (max-width: 600px) {
+    width: 70%;
+    height: calc(230vh - 4rem);
+  }
+  @media (max-width: 500px) {
+    width: 70%;
+    height: calc(250vh - 4rem);
+  }
+  @media (max-width: 400px) {
+    width: 70%;
+    height: calc(300vh - 4rem);
+  }
 `;
 
 export const CloseButtonContainerStyled = styled.div`
@@ -87,6 +117,20 @@ export const ProductContainerStyled = styled.div`
   background: #678cc7;
   padding: 1rem;
   border-radius: 15px;
+
+  @media (max-width: 1000px) {
+    width: 400px;
+  }
+
+  @media (max-width: 800px) {
+    width: 600px;
+    height: auto;
+  }
+
+  @media (max-width: 600px) {
+    width: 800px;
+    height: 150px;
+  }
 
   & img {
     width: 80px;

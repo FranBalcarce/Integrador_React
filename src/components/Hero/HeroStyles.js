@@ -6,7 +6,7 @@ export const HeroContainerStyled = styled.div`
   align-items: center;
   max-width: 1300px;
   margin-top: 150px;
-  margin-left: 150px;
+  margin-left: 90px;
   h1 {
     font-size: 40px;
     margin-bottom: 2rem;

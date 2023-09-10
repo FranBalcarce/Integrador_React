@@ -40,7 +40,6 @@ const Login = () => {
         <Form>
           <LoginInput name="email" type="text" placeholder="Email" />
           <LoginInput name="password" type="password" placeholder="Password" />
-          <Link to="/forgot-password">¿Olvidaste tu contraseña?</Link>
           <Link to="/register">
             <LoginEmailStyled>¿No tenes cuenta? Registrate</LoginEmailStyled>
           </Link>

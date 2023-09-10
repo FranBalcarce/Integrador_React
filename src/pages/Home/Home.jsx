@@ -29,7 +29,7 @@ function Home() {
       </CategoriasWrapper>
       <ProductosWrapper ref={productsRef}>
         <TituloWrapper>
-          <h2>Tokens</h2>
+          <h2>TOKENS</h2>
         </TituloWrapper>
         <CardsProductos />
       </ProductosWrapper>

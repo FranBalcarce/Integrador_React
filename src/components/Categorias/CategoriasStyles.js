@@ -7,6 +7,10 @@ export const CategoriasContainer = styled.div`
   align-items: center;
   gap: 20px;
   user-select: none;
+
+  @media (max-width: 700px) {
+    gap: 50px;
+  }
 `;
 
 export const CardCategoria = styled(motion.div)`
@@ -15,7 +19,7 @@ export const CardCategoria = styled(motion.div)`
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  width: 150px;
+  width: 250px;
   padding: 0 0.5rem;
   border-radius: 15px;
   cursor: pointer;
@@ -29,6 +33,13 @@ export const CardCategoria = styled(motion.div)`
     img {
       padding-top: 7px;
       padding-bottom: 7px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    h2 {
+      font-size: 30px;
+      gap: 30px;
     }
   }
 `;

@@ -1,15 +1,8 @@
 import React, { useState } from "react";
-import { AiOutlineSearch } from "react-icons/ai";
+
 import { useDispatch, useSelector } from "react-redux";
 
-import Button from "../UI/Button/Button";
-
-import {
-  HeroContainerStyled,
-  HeroFormStyled,
-  HeroSearchBarStyled,
-  IconWrapperStyled,
-} from "./HeroStyles";
+import { HeroContainerStyled } from "./HeroStyles";
 
 import { selectCategory } from "../../redux/categories/categoriesSlice";
 

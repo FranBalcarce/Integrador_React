@@ -6,6 +6,7 @@ export const FooterContainerStyled = styled.footer`
   justify-content: center;
   align-items: center;
   padding: 7rem 0 2rem 0;
+  margin-top: 200px;
   p span {
     font-weight: 800;
   }

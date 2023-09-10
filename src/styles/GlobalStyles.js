@@ -2,14 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
-    :root {
-    --orange-bg: #2f2618;
-    --orange: #ff9d01;
-    --magenta: #FF005C;
-    --gray-bg: #2b2b2c;
-  --btn-gradient: linear-gradient(83deg, #ffa100, #fb103d);
-  --btn-gradient-secondary: linear-gradient(140deg, #3B3022, #3B2329);
-  }
 
   html{
     scroll-behavior: smooth;
@@ -18,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
     margin: 0;
     padding: 0;
+    display: flex;
     background-image: url(https://tokensur.com/img/fondo%20wlp.jpg);
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -36,5 +29,6 @@ export const GlobalStyles = createGlobalStyle`
     li {
     list-style: none;
     }
+
 
 `;

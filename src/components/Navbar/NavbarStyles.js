@@ -2,12 +2,21 @@ import styled, { css } from "styled-components";
 import { motion } from "framer-motion";
 
 export const NavbarContainerStyled = styled.div`
+  width: auto;
   height: 100px;
-  background-color: #bcd5f5;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 4rem;
+
+  @media (max-width: 1000px) {
+    width: 1200px;
+  }
+
+  @media (max-width: 599px) {
+    height: 120px;
+  }
 `;
 
 export const ModalOverlayStyled = styled(motion.div)`
@@ -45,16 +54,30 @@ export const LinksContainerStyled = styled.div`
     align-items: center;
     gap: 2px;
   }
+
+  @media (max-width: 599px) {
+    a {
+      font-size: 26px;
+    }
+  }
 `;
 
 export const LinkContainerStyled = styled.div`
   font-size: 1.2rem;
   color: ${(props) => (props.home ? "rgb(44, 54, 192)" : "rgb(75, 83, 197)")};
+
+  @media (max-width: 599px) {
+    font-size: 30px;
+  }
 `;
 
 export const UserContainerStyled = styled(LinkContainerStyled)`
   display: flex;
   align-items: center;
+
+  @media (max-width: 599px) {
+    font-size: 26px;
+  }
 `;
 
 export const CartNavStyled = styled.div`
@@ -73,6 +96,12 @@ export const CartNavStyled = styled.div`
     background-color: rgb(212, 245, 250);
     font-size: 0.9rem;
   }
+
+  @media (max-width: 599px) {
+    span {
+      font-size: 18px;
+    }
+  }
 `;
 
 export const UserNavStyled = styled.div`
@@ -82,6 +111,12 @@ export const UserNavStyled = styled.div`
     color: #678cc7;
     font-size: 1rem;
     margin-right: 20px;
+  }
+
+  @media (max-width: 599px) {
+    span {
+      font-size: 26px;
+    }
   }
 `;
 

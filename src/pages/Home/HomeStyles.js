@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const HomeWrapper = styled.div`
-  width: 90vw;
-  max-width: 1600px;
+  width: 100%;
   padding: 1rem;
   margin: 0 auto;
   h2 {
@@ -15,10 +14,11 @@ export const CategoriasWrapper = styled.section`
 `;
 
 export const TituloWrapper = styled.section`
-  margin-left: 750px;
+  display: flex;
+  justify-content: center;
   padding-bottom: 60px;
   font-size: 32px;
-  color: #3174cc;
+  color: white;
 `;
 
 export const ProductosWrapper = styled.section`
