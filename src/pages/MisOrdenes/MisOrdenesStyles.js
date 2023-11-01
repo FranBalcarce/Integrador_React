@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
 export const MisOrdenesContainerStyled = styled.div`
-  max-width: 1600px;
-  min-height: calc(100vh - 500px);
-  margin: 0 auto;
-  padding: 2rem 0;
+  margin-left: 150px;
 `;
 
 export const MisOrdenesTitleStyled = styled.h2`

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Formik as FormikContainer, Form as FormikForm } from "formik";
 
 export const CheckoutDatosStyled = styled.div`
-  width: 50%;
+  /* width: 50%; */
   margin: 0 auto;
 `;
 

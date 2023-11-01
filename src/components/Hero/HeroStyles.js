@@ -4,7 +4,6 @@ export const HeroContainerStyled = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1300px;
   margin-top: 150px;
   margin-left: 90px;
   h1 {

@@ -7,7 +7,6 @@ export const ProductStyled = styled.div`
   border-radius: 15px;
   padding: 1.5rem 1rem;
   width: 50%;
-  max-width: 600px;
 
   img {
     width: 150px;

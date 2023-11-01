@@ -6,7 +6,7 @@ export const ProductosContainer = styled.div`
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 400px);
   row-gap: 3.5rem;
-  width: 100%;
+  /* width: 100%; */
   padding: 1rem 0;
 `;
 

@@ -2,21 +2,11 @@ import styled, { css } from "styled-components";
 import { motion } from "framer-motion";
 
 export const NavbarContainerStyled = styled.div`
-  width: auto;
-  height: 100px;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 4rem;
-
-  @media (max-width: 1000px) {
-    width: 1200px;
-  }
-
-  @media (max-width: 599px) {
-    height: 120px;
-  }
 `;
 
 export const ModalOverlayStyled = styled(motion.div)`
