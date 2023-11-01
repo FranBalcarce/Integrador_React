@@ -6,7 +6,7 @@ import { HeroContainerStyled } from "./HeroStyles";
 
 import { selectCategory } from "../../redux/categories/categoriesSlice";
 
-const Hero = ({ doScroll }) => {
+const Hero = () => {
   const dispatch = useDispatch();
 
   const [value, setValue] = useState("");
